@@ -78,7 +78,6 @@ class Discordrb::Bot
 
     # Lock the thread until a valid response is given, prompt was canceled or timed out
     lock.close
-    puts 'mark'
 
     # Remove handlers and end timeout
     remove_handler(message_handler)
