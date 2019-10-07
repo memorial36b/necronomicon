@@ -278,7 +278,7 @@ module Bot::AssignableRoles
           reaction: '🚫',
           clean:    true
       )
-      description = response ? response.content.downcase : nil
+      description = response ? response.content : nil
 
       # Update assignable role and save to database
       role.description = description
