@@ -378,7 +378,7 @@ module Bot::AssignableRoles
     # Prompt user for optional description
     response = event.message.prompt(
         <<~CONTENT.strip,
-          **What should this role's description be?**
+          **What should this role group's description be?**
           Press 🚫 to have no description.
         CONTENT
         reaction: '🚫',
