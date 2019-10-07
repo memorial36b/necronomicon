@@ -12,10 +12,10 @@ It uses the [discordrb](https://github.com/meew0/discordrb) library, using the
 
 ### Current:
 
-### Upcoming:
-
 - **Assignable roles**
   - Allows users to assign themselves specific roles through commands.
+
+### Upcoming:
   
 ## Other
 
