@@ -128,7 +128,7 @@ module Bot::AssignableRoles
       # Otherwise, add role and respond to user
       else
         event.user.add_role(role.id)
-        event.respond "**#{event.user.mention}**, you have been given the #{SERVER.role(role.id).name}** role."
+        event.respond "**#{event.user.mention}**, you have been given the **#{SERVER.role(role.id).name}** role."
       end
     end
   end
