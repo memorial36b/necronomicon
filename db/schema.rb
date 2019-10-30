@@ -18,5 +18,11 @@ module Schema
       TrueClass :is_exclusive
       String :description, :size=>255
     end
+
+    db.create_table?(:hug_users) do
+      primary_key :id
+      Integer :given, :default=>0
+      Integer :received, :default=>0
+    end
   end
 end
