@@ -2,7 +2,7 @@
 
 
 # Lets users give hugs.
-module Bot::Hugs
+module Bot::Fun::Hugs
   extend Discordrb::Commands::CommandContainer
   include Bot::Models
 

@@ -2,7 +2,7 @@
 
 
 # Allows users to give and remove certain assignable roles to themselves.
-module Bot::AssignableRoles
+module Bot::Miscellaneous::AssignableRoles
   extend Discordrb::Commands::CommandContainer
   extend Discordrb::EventContainer
   include Bot::Models

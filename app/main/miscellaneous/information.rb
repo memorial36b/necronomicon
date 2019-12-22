@@ -2,7 +2,7 @@
 
 
 # Contains a command that gives information on the bot and myself.
-module Bot::Information
+module Bot::Miscellaneous::Information
   extend Discordrb::Commands::CommandContainer
 
   command :info do |event|
