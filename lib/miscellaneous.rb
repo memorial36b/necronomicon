@@ -11,6 +11,7 @@ module Permissions
 
   Bot::BOT.set_role_permission(WILDCARD_ID, 3)
   Bot::BOT.set_user_permission(MY_ID, 3)
+  Bot::BOT.set_role_permission(ATTENDANT_ID, 2)
 end
 
 # Contains a method that returns a pluralized string if the integer given is not 1,
