@@ -1,7 +1,7 @@
 # Necronomicon: No illusions shall deceive you any longer.
 
 ## Introduction
-Necronomicon is a Discord bot built for the Today in Persona 5 [Discord server](https://discord.gg/xwQASJ4), 
+Necronomicon is a Discord bot built for the Today in Persona 5 [Discord server](https://discord.gg/ZVAYuzD), 
 a community server for followers of the TiP5 [Twitter account](https://twitter.com/TodayInPersona5) and Persona fans in
 general.
 
@@ -12,8 +12,14 @@ It uses the [discordrb](https://github.com/meew0/discordrb) library, using the
 
 ### Current:
 
-- **Assignable roles**
-  - Allows users to assign themselves specific roles through commands.
+#### Miscellaneous:
+
+- **Assignable roles:**  Allows users to assign themselves specific roles through commands.
+
+#### Fun:
+
+- **Hugs:** Allows users to hug each other.
+- **Headpats:** Allows users to pat each other on the head.
 
 ### Upcoming:
   

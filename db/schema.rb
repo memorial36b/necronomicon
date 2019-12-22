@@ -24,5 +24,17 @@ module Schema
       Integer :given, :default=>0
       Integer :received, :default=>0
     end
+
+    db.create_table?(:muted_users) do
+      primary_key :id
+      DateTime :end_time
+      String :reason, :size=>255
+    end
+
+    db.create_table?(:headpat_users) do
+      primary_key :id
+      Integer :given, :default=>0
+      Integer :received, :default=>0
+    end
   end
 end
